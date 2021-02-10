@@ -1,0 +1,223 @@
+/*table*/
+table{
+	/*text color*/
+	color:#000fff;
+
+	/*margin for centering the table*/
+	margin: 0 auto;
+
+	/*width*/
+	width: 70%;
+
+	/*border spacing*/
+	border-spacing: 0;
+
+	/*font family*/
+	font-family: Arial, Helvetica, sans-serif;
+
+	/*font-size*/	
+	font-size: 90%;
+
+	/*height of lines*/
+	line-height: 2;
+}
+/*table heading*/
+th{
+	opacity: 1;
+
+	/*background color*/
+	background: #acbedf;
+
+	/*gradient in background*/
+	background-image: linear-gradient(to bottom, #b3e0ff, #007acc);
+	
+
+	/*thick bottom border*/
+	border-bottom: 4px solid #003d66;
+
+	/*thinner side borders*/
+	border-left: 1px solid #e6f5ff;
+	border-right: 1px solid #e6f5ff;
+
+	/*border radius for top 2 corners*/
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 5px 5px 0 0;
+
+	/*padding*/
+	padding: 0 5px;
+
+	/*font family*/
+	font-family: "Times New Roman", Times, serif;
+
+	/*font-size*/	
+	font-size: 120%;
+
+	/*font color*/
+	color: #000000;
+
+	/*no text wrapping*/
+	white-space: nowrap;
+}
+tr{
+	/*opacity*/
+	opacity:.8;
+}
+/*elements of table rows*/
+tr td{
+	/*opacity*/
+	opacity:.8;
+
+	/*padding*/
+	padding: 0 5px;
+
+	/*font color*/
+	color: #0047b3;
+
+	/*background color*/
+	background: #ccd9ff;
+
+	/*border*/
+	border: 1px solid #e6f5ff;
+
+	/*border radius 2px*/
+	border-radius: 2px;
+
+	/*centering text*/
+	text-align: center;
+
+	/*text shadow*/
+	text-shadow: 0.5px 0.5px #0066ff;
+}
+
+/*opacity is 1 when row hovered upon*/
+tr:hover{
+  	opacity: 1;
+}
+
+/*aligning first column to left*/
+tr td:first-child, th:first-child{
+  	text-align: left;
+}
+
+
+body{
+	/*padding and margin*/
+	margin: 0.5% 0.5% 0% 0.5%; 
+	padding: 1% 1% 0% 1%;
+}
+
+
+header{
+	/*backup option for the background color*/
+	background-color: #2471A3; 
+
+	/*background image*/
+	background-image: url('../images/flywheel.jpg');
+
+	/*padding*/
+	padding: 1px;
+}
+
+/*links in navigation*/
+nav a{
+	/*display*/
+	display: inline-block;
+
+	/*width and height*/
+	height: 5%;
+	width: 15%;
+
+	/*margin*/
+	margin: 0px 10px;
+
+	/*border radius*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+
+	/*text-decoration*/
+	text-decoration: none;
+
+	/*padding*/
+	padding: 20px 0px;
+
+	/*text color*/
+	color: #000000;
+	
+	/*background-color*/
+	background-color: rgba(250, 250, 250, .4);
+	
+	/*alignment of text*/
+	text-align: center;	 
+}
+/*active class*/
+.active{
+	background-color: #ffffff;
+	color: #9900ff; 
+}
+
+/*left class*/
+.left{
+	background: #abcdef;
+	width: 15%;
+	float: left;
+	padding: 10px 10px;
+	margin: 0;
+	border: 0;
+	height: 100vh;
+
+}
+/*right class*/
+.right{
+	width: 70%;
+	float: left;
+	padding: 10px 10px;
+
+}
+/*image styling*/
+img{
+
+	/*border*/
+	border: 4px solid #000000;
+
+	display:block;
+
+	/*height and width*/ 
+	max-width: 80%;
+	height: auto;
+
+	/*spaced from sides and neighbors*/
+	margin: 20px auto;
+}
+
+/*h1 style*/
+h1{
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section{
+  	display: inline-block;
+  	margin: 0;
+  	padding: 0;
+}
+
+/*h2 style from assignment 1*/
+h2{
+  	color: #2471A3;
+  	text-transform: uppercase;
+}
+
+nav{
+	padding: 3%;
+}
+
+
+main{
+	float: left;
+	margin: 0 auto;
+	padding: 0px 0px;
+	display: inline;
+}
